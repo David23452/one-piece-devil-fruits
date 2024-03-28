@@ -5,7 +5,7 @@ body {
 }
 
 .page-container {
-  background: url(../../assets/Whitebeard-.png);
+  background: url(../../assets/Whitebeard.png);
   background-size: cover;
   height: 100vh;
   display: flex;
