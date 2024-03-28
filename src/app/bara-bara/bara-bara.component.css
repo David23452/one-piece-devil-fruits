@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  background: url(../../assets/Buggy.png);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.Info-Section {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+}
+
+.Info-Section h1 {
+  font-size: 82px;
+}
+
+.Info-Section p {
+  font-size: 22px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.836);
+}
+
+.Info-Section img {
+  height: 20vh;
+  width: 40vh;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}

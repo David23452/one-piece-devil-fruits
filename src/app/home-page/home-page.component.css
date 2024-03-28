@@ -1,0 +1,85 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  background: url(../../assets/luffy-background.png);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.Info-Section {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+}
+
+.Info-Section h1 {
+  font-size: 82px;
+}
+
+.Info-Section p {
+  font-size: 22px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.836);
+}
+
+.Info-Section img {
+  height: 20vh;
+  width: 40vh;
+}
+
+.fruit-nav {
+  background-color: black;
+  max-width: 12rem;
+  max-height: 100vh;
+  opacity: 0.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: fixed;
+  right: 0;
+}
+
+.fruit-nav img {
+  border-radius: 50%;
+  height: 10em;
+  width: 10rem;
+  display: flex;
+}
+
+.devil-fruit-teasers {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 180px;
+  justify-content: center;
+  padding-right: 2.5rem;
+  gap: 3rem;
+}
+
+.devil-fruit-teasers button {
+  border: none;
+  background: #000000;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.devil-fruit-teasers button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #d9d9d9;
+  border-radius: 50%;
+}
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
